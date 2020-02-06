@@ -1,6 +1,6 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.3.61"
-    `java-library`
+    `maven-publish`
 }
 
 repositories {
