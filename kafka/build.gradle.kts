@@ -18,7 +18,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3")
     implementation("org.apache.kafka:connect-json:2.4.0")
-    implementation("io.confluent:kafka-avro-serializer:5.3.0")
+    api("io.confluent:kafka-avro-serializer:5.3.0")
     implementation("com.petshop:commons:0.0.1")
 
     api("org.apache.kafka:kafka-clients:2.4.0")
